@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BT4_LuongGiaoDien_ProfileUI</string>
+    <string name="loginsuccess">Đăng nhập thành công</string>
+    <string name="loginerror">Đăng nhập thất bại</string>
 </resources>
