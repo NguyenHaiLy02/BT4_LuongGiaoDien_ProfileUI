@@ -6,12 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
     EditText edtUser,edtPass;
     Button btnLogin;
+    TextView tvNewuser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +22,7 @@ public class MainActivity extends Activity {
         edtUser = (EditText) findViewById(R.id.editText_user);
         edtPass = (EditText) findViewById(R.id.editText_pass);
         btnLogin = (Button) findViewById(R.id.buttonLogin);
+        tvNewuser =(TextView) findViewById(R.id.textNewuser);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +36,13 @@ public class MainActivity extends Activity {
                 }else {
                     Toast.makeText(MainActivity.this, "ĐĂNG NHẬP THẤT BẠI", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        tvNewuser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent=new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(myIntent);
             }
         });
     }

@@ -1,9 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
+    <View
+        android:id="@+id/View1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/DeepSkyBlue2"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:id="@+id/View2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/View1"
+        android:background="@drawable/ic_wave_deepskyblue2" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="HERE'S YOUR FIRST STEP WITH US"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_toRightOf="@+id/text1"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_user"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/View2"
+        android:layout_centerHorizontal="true"
+        android:hint="UserName"
+        android:paddingLeft="15dp" />
+    <EditText
+        android:id="@+id/editText_pass"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_user"
+        android:layout_centerHorizontal="true"
+        android:hint="PassWord"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:paddingLeft="15dp" />
+        <EditText
+        android:id="@+id/editText_phone"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_email"
+        android:layout_centerHorizontal="true"
+        android:hint="Phone"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/editText_twitter"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_phone"
+        android:layout_centerHorizontal="true"
+        android:hint="Twitter"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/editText_fb"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editText_twitter"
+        android:layout_centerHorizontal="true"
+        android:hint="PassWord"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editText_twitter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_background"
+        android:text="REGISTER" />
+
+    <TextView
+        android:id="@+id/textBackUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Aready have an account?"
+        android:textColor="@color/DeepSkyBlue2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
