@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String user="admin";
+                String user="NguyenHaiLy";
                 String pass ="123456";
                 if(edtUser.getText().toString().equals(user) && edtPass.getText().toString().equals(pass)){
                     Toast.makeText(MainActivity.this, "ĐĂNG NHẬP THÀNH CÔNG", Toast.LENGTH_SHORT).show();

@@ -7,6 +7,7 @@
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/circle.xml" value="0.1355" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/circle_border.xml" value="0.1355" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/grad.xml" value="0.1355" />
+        <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.124" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1365" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/ic_baseline_person_2.xml" value="0.1355" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1415" />
@@ -17,8 +18,9 @@
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/ic_wave_deepskyblue2.xml" value="0.1355" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/ic_wave_white.xml" value="0.1355" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/round_background.xml" value="0.1365" />
+        <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/round_background2.xml" value="0.124" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/drawable/round_border.xml" value="0.1365" />
-        <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/layout/activity_profile.xml" value="0.1796875" />
         <entry key="..\:/BT4_LuongGiaoDien_ProfileUI/app/src/main/res/layout/activity_register.xml" value="0.16666666666666666" />
       </map>
