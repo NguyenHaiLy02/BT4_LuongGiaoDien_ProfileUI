@@ -10,23 +10,23 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    EditText edtEmail,edtPass;
+    EditText edtUser,edtPass;
     Button btnLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        edtEmail = (EditText) findViewById(R.id.editText_email);
+        edtUser = (EditText) findViewById(R.id.editText_user);
         edtPass = (EditText) findViewById(R.id.editText_pass);
         btnLogin = (Button) findViewById(R.id.buttonLogin);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String email="admin";
+                String user="admin";
                 String pass ="123456";
-                if(edtEmail.getText().toString().equals(email) && edtPass.getText().toString().equals(pass)){
+                if(edtUser.getText().toString().equals(user) && edtPass.getText().toString().equals(pass)){
                     Toast.makeText(MainActivity.this, "ĐĂNG NHẬP THÀNH CÔNG", Toast.LENGTH_SHORT).show();
                     Intent myIntent=new Intent(MainActivity.this, ProfileActivity.class);
                     startActivity(myIntent);
